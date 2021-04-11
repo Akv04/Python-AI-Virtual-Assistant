@@ -2,17 +2,16 @@
 
 Speech_recognition
 
-8 Library for performing speech recognition, with support for several engines and APIs, online and offline.
+Library for performing speech recognition, with support for several engines and APIs, online and offline.
 
 Installation:
-
 pip install SpeechRecognition
 
-Usage :
+Usage:
 
 import speech_recognition as sr
 listener =sr.Recognizer()
-voices=py.getProperty('voices')    # to get the list of voices available
+voices=py.getProperty('voices')        # to get the list of voices available
 py.setProperty('voice', voices[1].id)  # change voice to female voice ( voice[1]) . You can use voice[0] for male voice).
 Recognize speech input from the microphone
 
